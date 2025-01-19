@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    width: 1319px;
+    height: 928px;
+}
+.header{
+    width: 1016px;
+    height: 40px;
+    padding-top: 40px;
+    margin-top: 14px;
+    margin-left: 316px;
+}
+.logo{
+    width: 137px;
+    height: 40px;
+    padding-left: 59px;
+}
+.menu {
+    width: 533px;
+    height: 17px;
+    padding-top: 26px;
+    padding-bottom: 48px;
+    margin-left: 337px;
+}
+.menu a{
+    padding: 10px;
+}
+.content{
+    width: 1274px;
+    height: 536px;
+    margin-top: 149px;
+    margin-left: 316px;
+    
+}
+.info_and_buttons{
+
+    padding-top: 15px;
+    padding-left: 16px;
+}
+.info_and_buttons h1{
+    padding-top: 59px;
+    padding-bottom: 17px;
+}
+.buttons{
+    margin-top: 16px;
+}
+.watch_video{
+    padding-left: 72px;
+}
+.image{
+    width: 610.73px;
+    height: 372.9px;
+    padding-top: 15px;
+    padding-left: 618px;
+    padding-bottom: 391px;
+}
+.fotter{
+    margin-top: 53px;
+    margin-left: 316px;
+    
+}
