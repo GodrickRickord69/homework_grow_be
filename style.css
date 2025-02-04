@@ -7,6 +7,8 @@
     height: 928px;
 }
 .header{
+    display: flex;
+    align-items: center;
     width: 1016px;
     height: 40px;
     padding-top: 40px;
@@ -19,6 +21,9 @@
     padding-left: 59px;
 }
 .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 533px;
     height: 17px;
     padding-top: 26px;
@@ -26,7 +31,7 @@
     margin-left: 337px;
 }
 .menu a{
-    padding: 10px;
+    padding: 30px;
 }
 .content{
     width: 1274px;
@@ -51,8 +56,8 @@
     padding-left: 72px;
 }
 .image{
-    width: 610.73px;
-    height: 372.9px;
+    width: 610px;
+    height: 372px;
     padding-top: 15px;
     padding-left: 618px;
     padding-bottom: 391px;
