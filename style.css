@@ -31,26 +31,89 @@
     margin-left: 337px;
 }
 .menu a{
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
     padding: 30px;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.Home{
+    color: #f25822 !important;;
 }
 .content{
+    display: flex;
+    justify-content: flex-start;
     width: 1274px;
     height: 536px;
-    margin-top: 149px;
+    margin-top: 36px;
     margin-left: 316px;
+    padding-left: 59px;
     
 }
 .info_and_buttons{
-
+    align-items: center;
+    justify-content: space-between;
+    width: 589px;
+    height: 494;
     padding-top: 15px;
     padding-left: 16px;
 }
+@font-face{
+    font-family: "Gilroy ExtraBold";
+    src: local("Gilroy-ExtraBold.otf"),
+            url("/fonts/Gilroy-ExtraBold.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Gilroy Light";
+    src: local("Gilroy-Light.otf"),
+            url("/fonts/Gilroy-Light.otf");
+    font-weight: lighter;
+}
 .info_and_buttons h1{
+    display: inline-block;
+    width: 589px;
+    font-size: 60px;
+    font-family: "Gilroy ExtraBold";
+    font-weight: bold;
     padding-top: 59px;
     padding-bottom: 17px;
 }
+.info_and_buttons p{
+    font-family: "Gilroy Light";
+    font-size: 20px;
+    width: 500px;
+    padding-top: 17px;
+}
 .buttons{
-    margin-top: 16px;
+    display: flex;
+    margin-top: 37px;
+    
+}
+.start_now button{
+    appearance: none;
+    width: 140px;
+    height: 50px;
+    font-family: "Gilroy ExtraBold";
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #F25822;
+    border: 0;
+    border-radius: 50px;
+    
+}
+.watch_video button{
+    appearance: none;
+    width: 140px;
+    height: 50px;
+    font-family: "Gilroy ExtraBold";
+    font-size: 15px;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    border: 0px;    
 }
 .watch_video{
     padding-left: 72px;
@@ -59,11 +122,14 @@
     width: 610px;
     height: 372px;
     padding-top: 15px;
-    padding-left: 618px;
+    padding-left: 13px;
     padding-bottom: 391px;
 }
 .fotter{
+    display: flex;
     margin-top: 53px;
     margin-left: 316px;
-    
+}
+.fotter div{
+    margin-right: 48px;
 }
