@@ -5,6 +5,7 @@
 .top{
     width: 1319px;
     height: 928px;
+    padding: calc(0%) calc(13%) calc(0%);
 }
 .header{
     display: flex;
