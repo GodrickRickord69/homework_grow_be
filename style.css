@@ -5,20 +5,23 @@
 .top{
     width: 1319px;
     height: 928px;
+    padding: calc(0%) calc(13%) calc(0%);
 }
 .header{
     display: flex;
     align-items: center;
     width: 1016px;
     height: 40px;
-    padding-top: 40px;
+    padding: calc(5%) calc(0%) calc(0%);
+    /*padding-top: 40px;
     margin-top: 14px;
-    margin-left: 316px;
+    margin-left: 316px;*/
+    margin: 0 auto;
 }
 .logo{
     width: 137px;
     height: 40px;
-    padding-left: 59px;
+    /*padding-left: 59px;*/
 }
 .menu {
     display: flex;
@@ -26,9 +29,10 @@
     align-items: center;
     width: 533px;
     height: 17px;
-    padding-top: 26px;
+    /*padding-top: 26px;
     padding-bottom: 48px;
-    margin-left: 337px;
+    margin-left: 337px;*/
+    margin: 0 auto;
 }
 .menu a{
     text-decoration: none;
@@ -40,6 +44,10 @@
     font-weight: bold;
     color: black;
 }
+.strelka {
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
 #Home{
     color: #f25822 !important;;
 }
@@ -48,10 +56,9 @@
     justify-content: flex-start;
     width: 1274px;
     height: 536px;
-    margin-top: 36px;
-    margin-left: 316px;
-    padding-left: 59px;
-    
+    /*margin-top: 36px;
+    margin-left: 316px;*/
+    padding: calc(5%) calc(10%) calc(5%);
 }
 .info_and_buttons{
     align-items: center;
@@ -127,9 +134,12 @@
 }
 .fotter{
     display: flex;
-    margin-top: 53px;
+    /*margin-top: 53px;
     margin-left: 316px;
+    margin: 0 auto;*/
+    padding: calc(0%) calc(9%) calc(0%);
 }
 .fotter div{
-    margin-right: 48px;
+    margin-right: 47px;
+    /*margin: 0 auto;*/
 }
